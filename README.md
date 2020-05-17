@@ -4,6 +4,14 @@ This add-on provides users with a function to transfer the currently selected ve
 
 This is extremely useful models for Unity. Unity only imports and provides one vertex color channel per mesh (see [Unity's Mesh API and notice how there is only one color property](https://docs.unity3d.com/ScriptReference/Mesh.html)). Though, Unity does provide up to 8 uv maps. Therefore, this add-on relocates extra vertex color data into that available UV data.
 
+The remapping looks something like this:
+```
+uv.x = vertex_color.r
+uv.y = vertex_color.g
+uv2.x = vertex_color.b
+uv2.y = vertex_color.a
+```
+
 **Currently, this add-on replaces all data in the first two UV Maps in Blender!!** If you find a use for having the first UV map, and the extra vertex color data, let me know. Or, you can also implement it and provide a pull request :)
 
 ## Credit
