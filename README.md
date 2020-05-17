@@ -8,7 +8,7 @@ This is extremely useful models for Unity. Unity only imports and provides one v
 
 ## Credit
 
-This originally created by _numberkruncher_, posted on Unity Answers back in 2016 ([see post here](numberkruncher)). I updated the script for Blender 2.8, and adjusted the script to move the vertex data instead of swap. He originally designed the script to run when user uses shortcut _Ctrl+Shift+F1_ and that code is still in the add-on. I have no idea if the hotkey works still...
+This originally created by _numberkruncher_, posted on Unity Answers back in 2016 ([see post here](http://answers.unity.com/answers/1243374/view.html)). I updated the script for Blender 2.8, and adjusted the script to move the vertex data instead of swap. He originally designed the script to run when user uses shortcut _Ctrl+Shift+F1_ and that code is still in the add-on. I have no idea if the hotkey works still...
 
 ## Installation
 
